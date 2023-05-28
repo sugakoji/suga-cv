@@ -21,6 +21,7 @@
     "textlint-rule-rousseau": "^1.4.8"
   },
   "scripts": {
-    "lint": "textlint . && markdownlint docs/*.md"
+    "lint": "textlint . && markdownlint docs/*.md",
+    "build:pdf": "md-to-pdf docs/${YOUR_RESUME}.md --config-file ./pdf-configs/config.js"
   }
 }
