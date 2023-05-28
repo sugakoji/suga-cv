@@ -1,30 +1,33 @@
 # 職務経歴書
 
-## 意欲・興味
-
-- xxx
-
 ## スキル
 
 - 言語
 
-  - JavaScript・Ruby
+  - PHP(2 年)
+  - Python(5 年)
+  - TypeScript(1 年)
+  - Golang(学習経験あり)
+  - Ruby, C#, Java(学習経験あり)
 
 - フレームワーク等
 
-  - React・Ruby on Rails
+  - FastAPI, React, Vue
 
 - RDB
 
-  - MySQL
+  - MySQL(1 年)
 
 - クラウド
 
+  - GCP(2 年)
+    - GKE, GCS, GCE, IAP, VPC, GAR,
   - AWS
-    - EC2
+    - SAA 保持程度には学習経験あり
 
 - その他
-  - Docker・GraphQL・RSpec
+  - Docker
+  - kubernetes
 
 ## 職務経歴詳細
 
