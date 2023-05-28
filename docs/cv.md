@@ -12,7 +12,7 @@
 
 - フレームワーク等
 
-  - FastAPI, React, Vue
+  - FastAPI/React/Vue
 
 - RDB
 
@@ -21,7 +21,7 @@
 - クラウド
 
   - GCP(2 年)
-    - GKE, GCS, GCE, IAP, VPC, GAR,
+    - GKE/ GCS/ GCE/ IAP/ VPC/ GAR
   - AWS
     - SAA 保持程度には学習経験あり
 
