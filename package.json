@@ -2,7 +2,10 @@
   "name": "suga-cv",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/sugakoji/suga-cv.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugakoji/suga-cv.git"
+  },
   "author": "sugakoji <sugasugakoji@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -21,7 +24,17 @@
     "textlint-rule-rousseau": "^1.4.8"
   },
   "scripts": {
+    "fix": "textlint . --fix && markdownlint --fix docs/*.md",
     "lint": "textlint . && markdownlint docs/*.md",
     "build:pdf": "md-to-pdf docs/${YOUR_RESUME}.md --config-file ./pdf-configs/config.js"
-  }
+  },
+  "description": "ポートフォリオ的なもの",
+  "bugs": {
+    "url": "https://github.com/sugakoji/suga-cv/issues"
+  },
+  "homepage": "https://github.com/sugakoji/suga-cv#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": []
 }
