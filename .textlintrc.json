@@ -14,8 +14,7 @@
         "max": 150
       },
       "max-kanji-continuous-len": {
-        "max": 6,
-        "allow": ["普通自動車第一種運転免許"]
+        "max": 10
       },
       "ja-no-successive-word": false,
       "ja-no-mixed-period": false
